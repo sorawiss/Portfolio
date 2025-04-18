@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Skill from "../sub-component/skill";
+import Skill from "../sub-component/Skill";
 
 export const About = () => {
   const frontendSkills = [
