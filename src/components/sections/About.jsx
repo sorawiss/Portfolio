@@ -35,7 +35,7 @@ export const About = () => {
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, index) => (
-                    <Skill key={index} tech={tech}  />
+                    <Skill key={index} tech={tech} />
                   ))}
                 </div>
               </div>
@@ -51,23 +51,23 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-primary/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+          <div className="flex flex-col mt-8">
+            <div className="p-6 rounded-xl border-primary/0 border">
+              <h3 className="text-xl font-bold mb-4">Education </h3>
               <ul className="list-disc list-inside text-primary/70 space-y-2">
-              <li>
-                  <strong> วิทยาศาสตร์จุฬาภรณราชวิทยาลัยเพชรบุรี </strong> (2017-2023)
+                <li>
+                  <strong> Computer Science </strong> second year at Thammasat University GPA 3.66
                 </li>
                 <li>
-                  <strong> คอมซาย </strong> - ธรรมศาสตร์
+                  <strong> Political Science </strong> second year at Ramkhamhaeng University GPA 3.7
                 </li>
                 <li>
-                  <strong> รัฐศาสตร์ </strong> - รามคำแหง
+                  Princess Chulabhorn Science High School (2017-2023) GPA 3.57
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border-primary/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+            <div className="p-6 rounded-xl border-primary/0 border">
+              <h3 className="text-xl font-bold mb-4">Work Experience </h3>
               <div className="space-y-4 text-primary/70">
                 <div>
                   <h4 className="font-semibold">
