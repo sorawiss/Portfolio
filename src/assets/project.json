@@ -6,8 +6,13 @@
         "github" : "https://github.com/sorawiss/sidejob"
     },
     {
-        "title" : "AI detction",
-        "description" : "SideJob aims to bridge the gap between employers seeking temporary workforce solutions and students or young adults looking for flexible, non-permanent employment opportunities. The application facilitates straightforward interactions through posting and responding to job opportunities.",
-        "URL" : "https://sideline-rangsit-demo.onrender.com/"
+        "title" : "A smart pressure pad that identifies shoe and clothing sizes through footstep-based input.",
+        "description" : "This project leverages machine learning to analyze data related to foot length, body weight, chest circumference, clothing size, and shoe size. The dataset was collected manually by the project creator and used to train a predictive model. The resulting model was then integrated into a software application. Additionally, custom software was developed to interface with the hardware component—a pressure-sensitive footpad—which is capable of measuring the user's foot length and body weight. With this system, simply standing on the pad enables users to receive instant estimations of their ideal shoe and clothing sizes.",
+        "URL" : "#"
+    },
+    {
+        "title" : "A smart pressure pad that identifies shoe and clothing sizes through footstep-based input.",
+        "description" : "This project leverages machine learning to analyze data related to foot length, body weight, chest circumference, clothing size, and shoe size. The dataset was collected manually by the project creator and used to train a predictive model. The resulting model was then integrated into a software application. Additionally, custom software was developed to interface with the hardware component—a pressure-sensitive footpad—which is capable of measuring the user's foot length and body weight. With this system, simply standing on the pad enables users to receive instant estimations of their ideal shoe and clothing sizes.",
+        "URL" : "#"
     }
 ]
