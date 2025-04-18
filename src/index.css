@@ -7,6 +7,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background: #f7f7f7;
   color: #323233;
+  scroll-behavior: smooth;
 }
 
 
