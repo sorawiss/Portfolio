@@ -7,6 +7,7 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import SmoothScrollWrapper from "./components/SoothScroll";
 import Design from "./components/sections/Design";
+import Footer from "./components/sections/Footer";
 import "./index.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Projects />
         <Design />
+        <Footer />
       </div>
     </SmoothScrollWrapper>
   );

@@ -4,7 +4,7 @@ function Footer() {
     return (
         <section
             id="home"
-            className=" flex items-center justify-center mb-[18rem]"
+            className=" flex items-center justify-center mb-[25rem]"
         >
 
         <p>sorawit.bunnee@gmail.com</p>

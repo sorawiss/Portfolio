@@ -9,12 +9,12 @@
     {
         "title" : "A smart pressure pad that identifies shoe and clothing sizes through footstep-based input.",
         "description" : "This project uses machine learning to predict clothing and shoe sizes based on foot length, weight, and chest circumference. Data was manually collected and used to train a model integrated into a software system. A custom-built footpad with sensors measures the user’s foot size and weight, allowing accurate size predictions with a simple step.",
-        "URL" : "#",
+        "URL" : "https://drive.google.com/drive/folders/1fiuro4WVPsx7lN7tZDYrFGgM6BRAHA2O?usp=sharing",
         "skill" : ["C", "Python", "Arduino", "ML"]
     },
     {
-        "title" : "AI",
-        "description" : "This project leverages machine",
+        "title" : "Chess AI",
+        "description" : "a full-fledged chess AI system inspired by the AlphaZero architecture, combining deep learning with Monte Carlo Tree Search (MCTS) to play and learn high-level chess strategies. The system is composed of several modular components including a convolutional neural network (CNN) for board evaluation and move policy prediction, an MCTS-based decision-making engine, and a real-time interactive chessboard built with Pygame.",
         "URL" : "#"
     }
 ]
