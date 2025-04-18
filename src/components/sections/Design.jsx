@@ -17,7 +17,7 @@ function Design() {
     return (
         <section
             id="home"
-            className="min-h-screen flex items-center justify-center relative mb-[18rem] mt-[18rem] "
+            className="min-h-screen flex items-center justify-center relative mb-[18rem]"
         >
             <RevealOnScroll>
                 <div className="desing-wrapper flex flex-col items-center justify-center gap-8 ">
