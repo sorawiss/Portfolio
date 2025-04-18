@@ -6,6 +6,7 @@ import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import SmoothScrollWrapper from "./components/SoothScroll";
+import Design from "./components/sections/Design";
 import "./index.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Design />
       </div>
     </SmoothScrollWrapper>
   );
