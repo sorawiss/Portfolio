@@ -21,7 +21,7 @@ function Design() {
             <RevealOnScroll>
                 <h1 className='text-4xl font-bold mb-8 '>Design Project</h1>
 
-                <div className="card-wrapper flex gap-4 ">
+                <div className="card-wrapper grid grid-cols-1 md:grid-cols-2 gap-6 ">
                     <a href="https://www.figma.com/proto/0dV0l8sgdXYMQVfvgozsiO/PostPoint?page-id=0%3A1&node-id=2-5&viewport=1230%2C362%2C0.43&t=UOnaP2cPHiir7URJ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=167%3A405"
                         className='hover:-translate-y-1 transition-all '
                     >

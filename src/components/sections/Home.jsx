@@ -1,7 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
-import data from "../../assets/data.json";
-
 
 export const Home = () => {
   return (
@@ -16,7 +14,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            {data.description}
+            Second-year Computer Science student passionate about building intelligent systems, from software architecture to embedded engineering
           </p>
           <div className="flex justify-center space-x-4">
             <a
