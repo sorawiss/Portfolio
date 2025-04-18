@@ -10,15 +10,15 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r text-primary bg-clip-text leading-right">
-            I'm Sorawiss
+            Sorawiss
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Second-year Computer Science student passionate about building intelligent systems, from software architecture to embedded engineering
+            "Second-year Computer Science student passionate about building intelligent systems, from software architecture to embedded engineering"
           </p>
           <div className="flex justify-center space-x-4">
             <a
-              href="#projects"
+              href="#"
               className="bg-primary text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
             >
               Somethings

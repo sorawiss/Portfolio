@@ -3,12 +3,14 @@
         "title" : "SideJob",
         "description" : "SideJob aims to bridge the gap between employers seeking temporary workforce solutions and students or young adults looking for flexible, non-permanent employment opportunities. The application facilitates straightforward interactions through posting and responding to job opportunities.",
         "URL" : "https://sideline-rangsit-demo.onrender.com/",
-        "github" : "https://github.com/sorawiss/sidejob"
+        "github" : "https://github.com/sorawiss/sidejob",
+        "skill" : ["React", "Node.js", "ExpressJS", "Supabase", "Tailwind", "Render"]
     },
     {
         "title" : "A smart pressure pad that identifies shoe and clothing sizes through footstep-based input.",
-        "description" : "This project leverages machine learning to analyze data related to foot length, body weight, chest circumference, clothing size, and shoe size. The dataset was collected manually by the project creator and used to train a predictive model. The resulting model was then integrated into a software application. Additionally, custom software was developed to interface with the hardware component—a pressure-sensitive footpad—which is capable of measuring the user's foot length and body weight. With this system, simply standing on the pad enables users to receive instant estimations of their ideal shoe and clothing sizes.",
-        "URL" : "#"
+        "description" : "This project uses machine learning to predict clothing and shoe sizes based on foot length, weight, and chest circumference. Data was manually collected and used to train a model integrated into a software system. A custom-built footpad with sensors measures the user’s foot size and weight, allowing accurate size predictions with a simple step.",
+        "URL" : "#",
+        "skill" : ["C", "Python", "Arduino", "ML"]
     },
     {
         "title" : "A smart pressure pad that identifies shoe and clothing sizes through footstep-based input.",

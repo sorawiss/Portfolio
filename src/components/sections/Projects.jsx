@@ -1,6 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Skill from "../sub-component/Skill";
-import Project from "../sub-component/Project";
+import Project from "../sub-component/ProjectObject";
 
 import projectData from '../../assets/project.json'
 
@@ -13,7 +12,7 @@ export const Projects = () => {
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4  ">
-          <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r text-primary bg-clip-text text-center">
+          <h2 className="text-4xl font-bold mb-[4rem] bg-gradient-to-r text-primary bg-clip-text text-center">
             {" "}
             Engineering & Computer Science Projects
           </h2>

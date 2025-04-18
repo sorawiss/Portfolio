@@ -4,6 +4,7 @@ import { RevealOnScroll } from '../RevealOnScroll'
 
 import design1 from '../../assets/pic/design1.jpg'
 import design2 from '../../assets/pic/design2.jpg'
+import design3 from '../../assets/pic/design3.jpg'
 
 import {
     Card,
@@ -16,54 +17,89 @@ function Design() {
     return (
         <section
             id="home"
-            className="min-h-screen flex items-center justify-center relative "
+            className="min-h-screen flex items-center justify-center relative mb-[18rem] mt-[18rem] "
         >
             <RevealOnScroll>
-                <h1 className='text-4xl font-bold mb-8 '>Design Project</h1>
+                <div className="desing-wrapper flex flex-col items-center justify-center gap-8 ">
 
-                <div className="card-wrapper grid grid-cols-1 md:grid-cols-2 gap-6 ">
-                    <a href="https://www.figma.com/proto/0dV0l8sgdXYMQVfvgozsiO/PostPoint?page-id=0%3A1&node-id=2-5&viewport=1230%2C362%2C0.43&t=UOnaP2cPHiir7URJ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=167%3A405"
-                        className='hover:-translate-y-1 transition-all '
-                    >
-                        <Card
-                            shadow={false}
-                            className="relative grid h-[40rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
+                    <h1 className='text-4xl font-bold '>Design Project</h1>
+
+                    <div className="card-wrapper grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                        <a href="https://www.figma.com/proto/0dV0l8sgdXYMQVfvgozsiO/PostPoint?page-id=0%3A1&node-id=2-5&viewport=1230%2C362%2C0.43&t=UOnaP2cPHiir7URJ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=167%3A405"
+                            className='hover:-translate-y-1 transition-all '
+                            target='_blank'
                         >
-                            <CardHeader
-                                floated={false}
+                            <Card
                                 shadow={false}
-                                color="transparent"
-                                className={`absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center`}
-                                style={{ backgroundImage: `url(${design1})` }}
+                                className="relative grid h-[40rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
                             >
-                                <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
-                            </CardHeader>
-                            <CardBody className="relative py-14 px-6 md:px-12">
-                                <Typography
-                                    variant="h2"
-                                    color="white"
-                                    className="mb-6 font-medium leading-[1.5]"
+                                <CardHeader
+                                    floated={false}
+                                    shadow={false}
+                                    color="transparent"
+                                    className={`absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center`}
+                                    style={{ backgroundImage: `url(${design1})` }}
                                 >
-                                    SideJob Application
-                                </Typography>
-                            </CardBody>
-                        </Card>
-                    </a>
+                                    <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
+                                </CardHeader>
+                                <CardBody className="relative py-14 px-6 md:px-12">
+                                    <Typography
+                                        variant="h2"
+                                        color="white"
+                                        className="mb-6 font-medium leading-[1.5]"
+                                    >
+                                        SideJob Application
+                                    </Typography>
+                                </CardBody>
+                            </Card>
+                        </a>
 
 
-                    <a href="https://www.figma.com/design/YIcuwfZuDTsMSbel0LFg00/SideJob?node-id=2-28&t=Fbhp3H7c8wW4Obzl-1"
-                        className='hover:-translate-y-1 transition-all '
+                        <a href="https://www.figma.com/design/YIcuwfZuDTsMSbel0LFg00/SideJob?node-id=2-28&t=Fbhp3H7c8wW4Obzl-1"
+                            className='hover:-translate-y-1 transition-all '
+                            target='_blank'
+                        >
+                            <Card
+                                shadow={false}
+                                className="relative grid h-[40rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
+                            >
+                                <CardHeader
+                                    floated={false}
+                                    shadow={false}
+                                    color="transparent"
+                                    className="absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center"
+                                    style={{ backgroundImage: `url(${design2})` }}
+                                >
+                                    <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
+                                </CardHeader>
+                                <CardBody className="relative py-14 px-6 md:px-12">
+                                    <Typography
+                                        variant="h2"
+                                        color="white"
+                                        className="mb-6 font-medium leading-[1.5]"
+                                    >
+                                        PostPoint Application
+                                    </Typography>
+                                </CardBody>
+                            </Card>
+                        </a>
+                    </div>
+
+
+                    <a href="https://www.figma.com/proto/MHSL3q3z2wP2ddHzB3RjY0/IVFClinic?page-id=0%3A1&node-id=4-3&viewport=-931%2C974%2C0.75&t=rGNm3vG83wzaJrLD-1&scaling=scale-down&content-scaling=fixed"
+                        className='hover:-translate-y-1 transition-all w-full '
+                        target='_blank'
                     >
                         <Card
                             shadow={false}
-                            className="relative grid h-[40rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
+                            className="relative grid h-[25rem] w-full items-end justify-center overflow-hidden text-center"
                         >
                             <CardHeader
                                 floated={false}
                                 shadow={false}
                                 color="transparent"
                                 className="absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center"
-                                style={{ backgroundImage: `url(${design2})` }}
+                                style={{ backgroundImage: `url(${design3})` }}
                             >
                                 <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
                             </CardHeader>
@@ -73,14 +109,14 @@ function Design() {
                                     color="white"
                                     className="mb-6 font-medium leading-[1.5]"
                                 >
-                                    PostPoint Application
+                                    Delignt Clinic
                                 </Typography>
                             </CardBody>
                         </Card>
                     </a>
-
                 </div>
             </RevealOnScroll>
+
         </section >
     )
 }
