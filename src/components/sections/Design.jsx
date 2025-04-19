@@ -78,7 +78,7 @@ function Design() {
                                         color="white"
                                         className="mb-6 font-medium leading-[1.5]"
                                     >
-                                        PostPoint Application
+                                        MaiBood Application
                                     </Typography>
                                 </CardBody>
                             </Card>

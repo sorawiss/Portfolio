@@ -15,7 +15,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-[8rem]"
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
@@ -26,11 +26,12 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-primary/20 border hover:-translate-y-1 transition-all hover:border-primary/60 ">
             <p className="text-primary/70 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+            Second-year student in Computer Science and Political Science with interests in engineering, user experience design, social 
+            sciences, and psychology. Passionate about understanding how people interact with technology, and designing systems that 
+            are both technically sound and human-centered.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
@@ -48,7 +49,7 @@ export const About = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="flex flex-col mt-8">
