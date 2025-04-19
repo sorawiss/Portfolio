@@ -41,6 +41,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Projects{" "}
             </a>
+            <a
+              href="#design"
+              className="text-primary hove:text-white transition-colors"
+            >
+              {" "}
+              Design{" "}
+            </a>
           </div>
         </div>
       </div>

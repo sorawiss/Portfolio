@@ -16,7 +16,7 @@ import {
 function Design() {
     return (
         <section
-            id="home"
+            id="design"
             className="min-h-screen flex items-center justify-center relative mb-[18rem]"
         >
             <RevealOnScroll>

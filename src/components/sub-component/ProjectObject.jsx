@@ -24,6 +24,7 @@ function Project({ title, description, URL, github, skill }) {
                 </a>
                 {github && (
                     <a href={github}
+                        target='_blank'
                         className="text-primary hover:text-primary/40 transition-colors my-4 "
                     >github</a>
                 )}
