@@ -10,8 +10,7 @@
         "title" : "MaiBood",
         "description" : "MaiBood is a web-based platform designed to minimize food waste by enabling individuals to buy and sell unused or surplus groceries—such as fresh produce, packaged goods, or leftover ingredients. The system encourages sustainability and promotes community-driven resource sharing. Users can upload images of their available food items, set prices, search for nearby goods, and interact with a localized food-sharing ecosystem.",
         "URL" : "https://maibood.onrender.com/",
-        "skill" : ["React", "Node.js", "ExpressJS", "Tailwind", "Render," , "AWS"],
-        "github" : "https://github.com/sorawiss/MaiBood"
+        "skill" : ["React", "Node.js", "ExpressJS", "Tailwind", "Render," , "AWS"]
 
     },
     {
