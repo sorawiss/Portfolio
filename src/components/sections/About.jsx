@@ -25,7 +25,7 @@ export const About = () => {
           </h1>
 
           <div className="rounded-xl p-8 border-primary/20 border hover:-translate-y-1 transition-all hover:border-primary/60 ">
-            <p className="text-primary/70 mb-6">
+            <p className="text-primary/70 mb-6 text-center ">
             Second-year student in Computer Science and Political Science with interests in engineering, user experience design, social 
             sciences, and psychology. Passionate about understanding how people interact with technology, and designing systems that 
             are both technically sound and human-centered.

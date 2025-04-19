@@ -14,15 +14,16 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            "Second-year Computer Science and Political Science student interested in engineering, UX, social science, and psychology."
+            "At the intersection of code, design, and the human experience.
+            I’m driven by a desire to build systems that are both technically sound and emotionally intelligent.
           </p>
           <div className="flex justify-center space-x-4">
-            <a
+            {/* <a
               href="#footer"
               className="bg-primary text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
             >
               Contact
-            </a>
+            </a> */}
 
             {/* <a
               href="#contact"
