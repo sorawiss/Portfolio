@@ -8,23 +8,28 @@ import { Projects } from "./components/sections/Projects";
 import SmoothScrollWrapper from "./components/SoothScroll";
 import Design from "./components/sections/Design";
 import Footer from "./components/sections/Footer";
+import { ThemeProvider } from "./context/ThemeContext";
 import "./index.css";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   return (
-    <SmoothScrollWrapper>
-      <div className={`min-h-screen transition-opacity duration-700 bg-background text-primary`} >
-        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Home />
-        <About />
-        <Projects />
-        <Design />
-        <Footer />
-      </div>
-    </SmoothScrollWrapper>
+    <ThemeProvider>
+      <SmoothScrollWrapper>
+        <div className={`min-h-screen transition-all duration-700 bg-background text-primary  `} >
+          <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <Home />
+          <About />
+          <Projects />
+          <Design />
+          <Footer />
+        </div>
+      </SmoothScrollWrapper>
+    </ThemeProvider>
+
   );
 }
 

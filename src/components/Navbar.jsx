@@ -1,14 +1,19 @@
 import { useEffect } from "react";
-
+import { useTheme } from "../context/ThemeContext";
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
+
+
+  const { theme, toggleTheme } = useTheme();
+
+
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-black">
+          <a href="#home" className="font-mono text-xl font-bold text-primary">
             sorawiss
           </a>
 
@@ -48,6 +53,16 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Design{" "}
             </a>
+
+
+            <button
+              onClick={toggleTheme}
+              className="p-2 border rounded bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 
+              transition-all duration-300 "
+            >
+              {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
+            </button>
+
           </div>
         </div>
       </div>

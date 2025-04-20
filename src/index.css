@@ -17,6 +17,14 @@ body {
   --color-primary: #323233;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+@layer base {
+  .dark {
+    --color-background: #000000;
+    --color-primary: #ffffff;
+  }
+}
+
 
 
 @layer utilities {
