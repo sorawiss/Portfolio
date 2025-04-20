@@ -60,7 +60,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="p-2 border rounded bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 
               transition-all duration-300 "
             >
-              {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
+              {theme === 'light' ? '🌑 Dark' : '☀️ Light'}
             </button>
 
           </div>

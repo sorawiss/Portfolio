@@ -12,7 +12,7 @@ export function ThemeProvider({ children }) {
       return savedTheme;
     }
     else{
-      return 'light';
+      return 'dark';
     }
   });
 
