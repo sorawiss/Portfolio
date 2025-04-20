@@ -55,7 +55,7 @@ function Design() {
                         </a>
 
 
-                        <a href="https://www.figma.com/design/YIcuwfZuDTsMSbel0LFg00/SideJob?node-id=2-28&t=Fbhp3H7c8wW4Obzl-1"
+                        <a href="https://www.figma.com/proto/t0tCBSvqU1hkuPkaxO2tka/MaiBood?page-id=0%3A1&node-id=3-5437&p=f&viewport=332%2C458%2C0.38&t=h5zMgd2cwHMcYP2e-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A5437"
                             className='hover:-translate-y-1 transition-all '
                             target='_blank'
                         >
