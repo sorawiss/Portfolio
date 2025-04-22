@@ -15,7 +15,7 @@ export const Home = () => {
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
             "At the intersection of code, design, and the human experience.
-            I’m driven by a desire to build systems that are both technically sound and emotionally intelligent.
+            I’m driven by a desire to build systems that are both technically sound and emotionally intelligent."
           </p>
           <div className="flex justify-center space-x-4">
             {/* <a
