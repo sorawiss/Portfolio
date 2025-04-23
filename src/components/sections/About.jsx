@@ -60,7 +60,7 @@ export const About = () => {
                   <strong> Computer Science </strong> second year at Thammasat University <strong>GPA 3.66</strong> 
                 </li>
                 <li>
-                  <strong> Political Science </strong> second year at Ramkhamhaeng University <strong>GPA 3.70</strong> 
+                  <strong> Political Science </strong> second year at Ramkhamhaeng University <strong>GPA 3.71</strong> 
                 </li>
                 <li>
                   Princess Chulabhorn Science High School (2017-2023) <strong>GPA 3.57</strong> 
