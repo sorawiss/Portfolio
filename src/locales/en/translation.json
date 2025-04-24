@@ -1,0 +1,25 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "design": "Design",
+      "theme" : {
+        "light" : "Light",
+        "dark" : "Dark"
+      }
+    },
+    "about": {
+      "title": "Who I am",
+      "description": "Second-year student in Computer Science and Political Science with interests in engineering, user experience design, social sciences, and psychology. Passionate about understanding how people interact with technology, and designing systems that are both technically sound and human-centered.",
+      "educationTitle": "Education",
+      "csMajor": "Computer Science",
+      "psMajor": "Political Science",
+      "universityThammasat": "Thammasat University",
+      "universityRamkhamhaeng": "Ramkhamhaeng University",
+      "highSchool": "Princess Chulabhorn Science High School",
+      "years" : "second years"
+    }
+    
+  }
+  
