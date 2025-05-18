@@ -5,6 +5,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
+import WorkProject from "./components/sections/WorkProject";
 import SmoothScrollWrapper from "./components/SoothScroll";
 import Design from "./components/sections/Design";
 import Footer from "./components/sections/Footer";
@@ -23,6 +24,7 @@ function App() {
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <Home />
           <About />
+          {/* <WorkProject /> */}
           <Projects />
           <Design />
           <Footer />

@@ -58,7 +58,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {t('navbar.design')}
             </a>
 
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
 
             {/* Theme Toggle Button */}
             <button
